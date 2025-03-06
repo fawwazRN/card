@@ -44,6 +44,13 @@ body{
     background-color: black;
     border-radius: 15px;
     margin-bottom: 20px;
+    transition: 100ms ease-in-out;
+
+}
+.image img:hover{
+    width: 102%;
+    box-shadow: #6a6a6a 0px 0px 10px 0px;
+    transition: 100ms ease-in-out;
 }
 .content{
     display: flex;
